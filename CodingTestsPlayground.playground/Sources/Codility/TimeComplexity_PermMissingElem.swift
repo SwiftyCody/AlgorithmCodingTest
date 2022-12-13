@@ -41,11 +41,13 @@ import Foundation
  totalSum과 실제A의 총합(sum)의 차이를 구하면 되는 문제.
  */
 
-public func solution(_ A : [Int]) -> Int {
-    let sumA = A.reduce(0, +)
-        
-    let N = A.count
-    let totalSum = (N + 1) * (N + 2) / 2 // 찾는 값이 빠지지 않았을 때의 기대되는 총합
-        
-    return totalSum - sumA
+class PermMissingElem {
+    class func solution(_ A : [Int]) -> Int {
+        let sumA = A.reduce(0, +)
+            
+        let N = A.count
+        let totalSum = (N + 1) * (N + 2) / 2 // 찾는 값이 빠지지 않았을 때의 기대되는 총합
+            
+        return totalSum - sumA
+    }
 }
