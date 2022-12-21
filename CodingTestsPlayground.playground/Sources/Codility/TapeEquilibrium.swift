@@ -58,6 +58,7 @@ import Foundation
 
 
 class TapeEquilibrium {
+    
     class func solution(_ A : inout [Int]) -> Int {
         var rtn = 100000
         var front = 0

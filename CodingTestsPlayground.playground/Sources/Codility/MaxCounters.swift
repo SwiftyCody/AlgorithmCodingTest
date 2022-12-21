@@ -70,6 +70,7 @@ import Foundation
  */
 
 class MaxCounters {
+    
     class func solution(_ N : Int, _ A : inout [Int]) -> [Int] {
         
         var result = Array(repeating: 0, count: N)

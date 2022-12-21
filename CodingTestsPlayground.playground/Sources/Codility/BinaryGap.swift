@@ -31,6 +31,7 @@ import Foundation
  */
 
 class BinaryGap {
+    
     class func solution(_ N : Int) -> Int {
         let binary: String = String(N, radix: 2) // 2진수로 변환
         var rtn = 0

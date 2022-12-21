@@ -60,6 +60,7 @@ import Foundation
  */
 
 class PermCheck {
+    
     class func solution(_ A : inout [Int]) -> Int {
         let sortedA = Set(A).sorted(by: <)
         

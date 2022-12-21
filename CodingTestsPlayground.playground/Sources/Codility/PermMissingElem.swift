@@ -42,6 +42,7 @@ import Foundation
  */
 
 class PermMissingElem {
+    
     class func solution(_ A : [Int]) -> Int {
         let sumA = A.reduce(0, +)
             
