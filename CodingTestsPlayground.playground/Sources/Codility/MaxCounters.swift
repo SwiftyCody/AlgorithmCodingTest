@@ -60,8 +60,8 @@ import Foundation
 /*
  # 문제 요약
  Int N과 Int배열 A가 주어지고,
- N은 반환해야할 배열(result)의 크기, A는 result[A[i]+1]의 숫자를 +1시켜줄 A[i]를 담은 배열 시퀀스입니다.
- N보다 큰 A[i]가 나왔을 때는 result 전체가 i-1까지 가장 컸던 MaxCount로 전부 채워주게 됩니다.
+ N은 반환해야할 배열(result)의 크기, A의 i번째 원소 a는 result[a-1]의 숫자를 +1시켜줄 것을 나타냅니다.
+ N보다 큰 a가 나왔을 때는 result 전체가 지금까지 가장 컸던 MaxCount로 전부 채워주게 됩니다.
  
  # 풀이
  반복문을 최소화하여 풀어야하는 문제입니다.
