@@ -44,7 +44,7 @@ import Foundation
 
 /*
  # 문제 요약
- Int K와 [Int] A가 주어집니다.
+ Int K와 Int배열 A가 주어집니다.
  K 횟수만큼 A의 마지막 요소를 0번째 index로 넣기를 반복했을 때의 배열을 반환하면 됩니다.
  
  # 풀이
