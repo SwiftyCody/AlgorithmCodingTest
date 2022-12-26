@@ -32,7 +32,9 @@ import Foundation
  */
 
 class Distinct {
+    
     class func solution(_ A : inout [Int]) -> Int {
+        
         return NSSet(array:A).count
     }
 }
