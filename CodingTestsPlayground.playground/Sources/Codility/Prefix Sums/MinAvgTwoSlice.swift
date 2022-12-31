@@ -66,7 +66,6 @@ import Foundation
 class MinAvgTwoSlice {
     
     class func solution(_ A: [Int]) -> Int {
-        
         var minAvg: Float = Float(A[0] + A[1]) / 2.0
         var minStart = 0
         

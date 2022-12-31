@@ -68,7 +68,7 @@ import Foundation
 
 class MaxProductOfThree {
     
-    public func solution(_ A : [Int]) -> Int
+    class func solution(_ A : [Int]) -> Int
     {
         let sortedA = A.sorted(by: <)
         let n = sortedA.count
