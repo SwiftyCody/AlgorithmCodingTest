@@ -61,7 +61,7 @@ import Foundation
 
 class EquiLeader {
     
-    public func solution(_ A: [Int]) -> Int {
+    class func solution(_ A: [Int]) -> Int {
         var equLeader = 0
         
         let standard = A.count/2
