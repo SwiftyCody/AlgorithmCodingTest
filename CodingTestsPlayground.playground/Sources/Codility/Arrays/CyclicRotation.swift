@@ -52,9 +52,9 @@ import Foundation
  
  */
 
-class CyclicRotation {
+public class CyclicRotation {
     
-    class func solution(_ A : inout [Int], _ K : Int) -> [Int] {
+    public class func solution(_ A : [Int], _ K : Int) -> [Int] {
         if A.count == 0 {
             return A
         }

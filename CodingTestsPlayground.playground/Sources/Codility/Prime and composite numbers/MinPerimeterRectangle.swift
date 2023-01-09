@@ -41,9 +41,9 @@ import Foundation
  
  */
 
-class MinPerimeterRectangle {
+public class MinPerimeterRectangle {
     
-    class func solution(_ N: Int) -> Int {
+    public class func solution(_ N: Int) -> Int {
         if N == 1 {
             return 4
         }

@@ -34,9 +34,9 @@ import Foundation
  
  */
 
-class MissingInteger {
+public class MissingInteger {
     
-    class func solution(_ A : [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         if A.count == 0 {
             return 1
         }

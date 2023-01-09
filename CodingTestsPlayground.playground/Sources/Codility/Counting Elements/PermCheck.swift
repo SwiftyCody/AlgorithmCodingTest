@@ -59,9 +59,9 @@ import Foundation
  Set으로 중복을 제거한 후 체크해야 합니다.
  */
 
-class PermCheck {
+public class PermCheck {
     
-    class func solution(_ A : inout [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         let sortedA = Set(A).sorted(by: <)
         
         return A.count == sortedA.count && A.count == sortedA.last ? 1 : 0

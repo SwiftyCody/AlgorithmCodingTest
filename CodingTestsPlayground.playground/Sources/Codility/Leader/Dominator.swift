@@ -45,9 +45,9 @@ import Foundation
  
  */
 
-class Dominator {
+public class Dominator {
     
-    class func solution(_ A : [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
 
         if A.count == 0 {
             return -1

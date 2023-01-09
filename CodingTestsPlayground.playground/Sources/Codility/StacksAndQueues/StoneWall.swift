@@ -44,8 +44,8 @@ import Foundation
  
  */
 
-class StoneWall {
-    class func solution(_ H: [Int]) -> Int {
+public class StoneWall {
+    public class func solution(_ H: [Int]) -> Int {
         // H[i]는 i부터 i+1까지의 높이
         
         // stack엔 현재 직사각형 작업이 진행되고 있는 높이가 저장

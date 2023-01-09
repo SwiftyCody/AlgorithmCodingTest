@@ -41,9 +41,9 @@ import Foundation
  totalSum과 실제A의 총합(sum)의 차이를 구하면 되는 문제입니다.
  */
 
-class PermMissingElem {
+public class PermMissingElem {
     
-    class func solution(_ A : [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         let sumA = A.reduce(0, +)
             
         let N = A.count

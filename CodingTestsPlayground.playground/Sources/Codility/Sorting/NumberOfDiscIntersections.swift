@@ -102,9 +102,9 @@ import Foundation
  
  */
 
-class NumberOfDiscIntersections {
+public class NumberOfDiscIntersections {
     
-    class func solution(_ A : [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         // (x, 0)좌표가 중심이고, A[x]가 반지름인 원
         // 원이 겹치는 쌍의 갯수를 반환
         

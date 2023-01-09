@@ -32,9 +32,9 @@ import Foundation
  
  */
 
-class CountFactors {
+public class CountFactors {
     
-    class func solution(_ N: Int) -> Int {
+    public class func solution(_ N: Int) -> Int {
         if N == 1 {
             return 1
         }

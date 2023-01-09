@@ -60,9 +60,9 @@ import Foundation
  
  */
 
-class GenomicRangeQuery {
+public class GenomicRangeQuery {
     
-    class func solution(_ S : String, _ P : [Int], _ Q : [Int]) -> [Int] {
+    public class func solution(_ S : String, _ P : [Int], _ Q : [Int]) -> [Int] {
         // 예시
         // S: CAGCCTA
         // 0: G ,C -> G C C -> 3, 2 -> 2

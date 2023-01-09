@@ -31,9 +31,9 @@ import Foundation
  
  */
 
-class CountDiv {
+public class CountDiv {
     
-    class func solution(_ A : Int, _ B: Int, _ K: Int) -> Int {
+    public class func solution(_ A : Int, _ B: Int, _ K: Int) -> Int {
         let count = B/K - A/K
 
         return A % K == 0 ? count + 1 : count

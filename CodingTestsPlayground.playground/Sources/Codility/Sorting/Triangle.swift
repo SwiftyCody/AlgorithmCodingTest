@@ -52,9 +52,9 @@ import Foundation
  
  */
 
-class Triangle {
+public class Triangle {
     
-    class func solution(_ A : inout [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         
         let sortedA = A.sorted(by: >)
         let n = sortedA.count

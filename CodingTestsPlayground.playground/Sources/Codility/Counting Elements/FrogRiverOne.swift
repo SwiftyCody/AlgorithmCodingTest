@@ -62,9 +62,9 @@ import Foundation
  
  */
 
-class FrogRiverOne {
+public class FrogRiverOne {
     
-    class func solution(_ X:Int, _ A : [Int]) -> Int {
+    public class func solution(_ X:Int, _ A : [Int]) -> Int {
         if A.count >= X {
             var checkSet = Set<Int>()
             for (index, value) in A.enumerated() {

@@ -31,9 +31,9 @@ import Foundation
  
  */
 
-class Distinct {
+public class Distinct {
     
-    class func solution(_ A : inout [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         
         return NSSet(array:A).count
     }

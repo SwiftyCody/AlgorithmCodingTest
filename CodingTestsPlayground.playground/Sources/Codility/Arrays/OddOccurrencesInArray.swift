@@ -46,10 +46,10 @@ import Foundation
  */
 
 
-class OddOccurrencesInArray {
+public class OddOccurrencesInArray {
     
     // (1) XOR 연산자로 풀기
-    class func solution(_ A :[Int]) -> Int {
+    public class func solution(_ A :[Int]) -> Int {
         var temp = 0
             
         for item in A {

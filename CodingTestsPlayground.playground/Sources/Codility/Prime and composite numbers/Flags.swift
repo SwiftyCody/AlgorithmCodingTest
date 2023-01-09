@@ -98,9 +98,9 @@ import Foundation
 //(아직 93% 답)
 //(large_anti_slow 미통과. got 317 expected 316)
 
-class Flags {
+public class Flags {
     
-    class func solution(_ A: [Int]) -> Int {
+    public class func solution(_ A: [Int]) -> Int {
         // p:peak 봉우리. A[p]는 양옆(p-1, p+1)의 높이보다 높은 지점
         // K개의 깃발을 가져갈 때, A[p]봉우리와 A[q]봉우리의 거리|q-p|가 K보다 같거나 커야 함
         if A.count < 3 {

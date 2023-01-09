@@ -41,9 +41,9 @@ import Foundation
  
  */
 
-class MaxSliceSum {
+public class MaxSliceSum {
     
-    public func solution(_ A: [Int]) -> Int {
+    public class func solution(_ A: [Int]) -> Int {
         var currentSum = 0
         var maxSum = Int.min
         

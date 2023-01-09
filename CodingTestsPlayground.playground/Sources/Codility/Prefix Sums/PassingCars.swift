@@ -54,9 +54,9 @@ import Foundation
  
  */
 
-class PassingCars {
+public class PassingCars {
     
-    class func solution(_ A : [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         var eastCount = 0
         var sum = 0
         

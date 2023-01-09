@@ -57,9 +57,9 @@ import Foundation
  */
 
 
-class TapeEquilibrium {
+public class TapeEquilibrium {
     
-    class func solution(_ A : inout [Int]) -> Int {
+    public class func solution(_ A : [Int]) -> Int {
         var rtn = 100000
         var front = 0
         var back = A.reduce(0, +)

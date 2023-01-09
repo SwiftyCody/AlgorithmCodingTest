@@ -51,9 +51,9 @@ import Foundation
  
  */
 
-class MaxProfit {
+public class MaxProfit {
     
-    class func solution(_ A: [Int]) -> Int {
+    public class func solution(_ A: [Int]) -> Int {
         var maxProfit = 0
         var cheapest = A.first ?? 0
         

@@ -58,9 +58,9 @@ import Foundation
  
  */
 
-class CountNonDivisible {
+public class CountNonDivisible {
     
-    class func solution(_ A: [Int]) -> [Int] {
+    public class func solution(_ A: [Int]) -> [Int] {
         // n : 1~50000
         // A[n]: 1~n*2
         

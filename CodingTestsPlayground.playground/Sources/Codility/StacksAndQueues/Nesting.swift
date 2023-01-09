@@ -36,9 +36,9 @@ import Foundation
  
  */
 
-class Nesting {
+public class Nesting {
     
-    class func solution(_ S : inout String) -> Int {
+    public class func solution(_ S : String) -> Int {
         var openStack: [Character] = []
         
         for char in S {

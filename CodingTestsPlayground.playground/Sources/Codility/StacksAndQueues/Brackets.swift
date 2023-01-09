@@ -36,9 +36,9 @@ import Foundation
  
  */
 
-class Brackets {
+public class Brackets {
     
-    class func solution(_ S : inout String) -> Int {
+    public class func solution(_ S : String) -> Int {
         let sArray = Array(S)
         var stack:Array<Character> = []
         let setDic = ["(":")", "[":"]", "{":"}"]
